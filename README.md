@@ -2,14 +2,6 @@
 
 A modern, full-stack **Point of Sale (POS) System** built for restaurants — manage tables, orders, payments, and staff all from one place.
 
----
-
-## 📸 Preview
-
-> _Add your screenshots here_
-
----
-
 ## ✨ Features
 
 - 🔐 **Authentication** — Secure login, registration & logout with role-based access
@@ -122,57 +114,6 @@ A modern, full-stack **Point of Sale (POS) System** built for restaurants — ma
 - Razorpay account
 - SMS provider account (Twilio / MSG91)
 
-### Installation
-
-**1. Clone the repository**
-```bash
-git clone https://github.com/your-username/pos-system.git
-cd pos-system
-```
-
-**2. Install dependencies**
-```bash
-# Backend
-cd server
-npm install
-
-# Frontend
-cd ../client
-npm install
-```
-
-**3. Configure environment variables**
-
-Create a `.env` file in the `server/` directory:
-```env
-PORT=8000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-
-# Razorpay
-RAZORPAY_KEY_ID=your_razorpay_key_id
-RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-
-# OTP Service (Twilio example)
-TWILIO_ACCOUNT_SID=your_twilio_sid
-TWILIO_AUTH_TOKEN=your_twilio_auth_token
-TWILIO_PHONE_NUMBER=your_twilio_number
-```
-
-Create a `.env` file in the `client/` directory:
-```env
-VITE_API_BASE_URL=http://localhost:8000
-VITE_RAZORPAY_KEY_ID=your_razorpay_key_id
-```
-
-**4. Run the application**
-```bash
-# Start Backend (from server/)
-npm run dev
-
-# Start Frontend (from client/)
-npm run dev
-```
 
 Frontend: [http://localhost:5173](http://localhost:5173)  
 Backend: [http://localhost:8000](http://localhost:8000)
@@ -243,6 +184,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📬 Contact
 
-Made with ❤️ by **Your Name**  
+Made with ❤️ by **Durgesh**  
 📧 your.email@example.com  
 🐙 [GitHub](https://github.com/your-username)
