@@ -355,7 +355,7 @@ import { useMutation } from "@tanstack/react-query";
 import { addItem } from "../../https";
 import { enqueueSnackbar } from "notistack";
 
-const AddItemModal = ({ setIsItemModalOpen, categories = [], onItemAdded }) => {
+const ItemModal = ({ setIsItemModalOpen, categories = [], onItemAdded }) => {
 
   const defaultCategories = [
     { id: "1", name: "Starters" },
@@ -770,4 +770,4 @@ const AddItemModal = ({ setIsItemModalOpen, categories = [], onItemAdded }) => {
   );
 };
 
-export default AddItemModal;
+export default ItemModal;
