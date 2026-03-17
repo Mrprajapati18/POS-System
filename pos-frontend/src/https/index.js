@@ -28,7 +28,7 @@ export const updateOrderStatus = ({ orderId, orderStatus }) =>
 
 
 // 
-export const addItems = (data) => axiosWrapper.post("/items", data);
+export const addItem = (data) => axiosWrapper.post("/items", data);
 
 
 

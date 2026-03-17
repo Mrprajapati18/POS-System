@@ -4,7 +4,7 @@ import { BiSolidDish } from "react-icons/bi";
 import Metrics from "../components/dashboard/Metrics";
 import RecentOrders from "../components/dashboard/RecentOrders";
 import Modal from "../components/dashboard/Modal";
-import ItemModal from "../components/dashboard/ItemsModal";
+import AddItemModal from "../components/dashboard/ItemsModal";
 import DishesModel from "../components/dashboard/DishesModel";
 
 const buttons = [
@@ -79,7 +79,7 @@ const Dashboard = () => {
 
       {isTableModalOpen && <Modal setIsTableModalOpen={setIsTableModalOpen} />}
 
-       {isItemModelOpen && <ItemModal setIsItemModalOpen={setIsItemModalOpen} />}
+       {isItemModelOpen && <AddItemModal setIsItemModalOpen={setIsItemModalOpen} />}
        {/* {isDishsModelOpen && <DishesModel setIsDishModelOpen={setIsDishModelOpen} />} */}
     </div>
   );
